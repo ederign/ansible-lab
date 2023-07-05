@@ -1,6 +1,6 @@
-- name: Hello World Sample
+- name: Hello World Sample 1
   hosts: all
   tasks:
-    - name: Hello Message
+    - name: Hello Message 1
       debug:
         var: variable1
