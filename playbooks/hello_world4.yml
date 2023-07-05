@@ -1,0 +1,6 @@
+- name: Hello World Sample 4
+  hosts: all
+  tasks:
+    - name: Hello Message 4
+      debug:
+        var: fromwf
